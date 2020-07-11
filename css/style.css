@@ -1,0 +1,9 @@
+/* Para usar o TailWind foi usado "npx tailwindcss init" */
+/* Para usar bem o Tailwind é necessário instalar o postcss: npm install postcss-import */
+/* Necessário também npm install auxoprefixer */
+/* Necessário criar também o arquivo postcss.config.js com a configuração passada no site */
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";

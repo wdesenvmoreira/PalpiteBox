@@ -1,0 +1,3 @@
+.wrapper {
+    @apply bg-blue-900 p-4 shadow-md ;
+}
