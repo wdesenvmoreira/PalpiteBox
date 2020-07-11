@@ -11,7 +11,7 @@ const Header = () =>{
                 <div className='container mx-auto '>
                 <Link href='/'>
                      <a>
-                        <img className='mx-auto'  src='/logo_palpitebox.png' alt='PalpiteBox' />
+                        <img className='mx-auto'  src='/logo_palpitebox.png' alt='PalpiteBox' width="250" height="300"/>
                      </a>
                 </Link>
                 </div>

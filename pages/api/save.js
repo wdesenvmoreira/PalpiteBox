@@ -1,4 +1,5 @@
 import moment from 'moment'
+import { fromBase64 } from '../../utils/base64'
 
 const { GoogleSpreadsheet } = require('google-spreadsheet')
 
@@ -11,10 +12,7 @@ const genCupom = () => {
     return code.substr(0,4) + '-' + code.substr(4,4) + '-' + code.substr(8,4)
 }
 
-const fromBase64 = value => {
-    const buff = Buffer.from(value, 'base64')
-    return buff.toString('ascii')
-}
+
 export default async(req, res) => {
     try {
         await doc.useServiceAccountAuth({
