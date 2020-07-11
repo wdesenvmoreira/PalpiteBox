@@ -1,4 +1,4 @@
 .next
 node_modules
 .env.local
-credential.json
+credentials.json
